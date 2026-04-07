@@ -96,3 +96,10 @@ C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\razor.pdb
 C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\razor.genruntimeconfig.cache
 C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\ref\razor.dll
 C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\razor.sourcelink.json
+C:\Users\louis\Documents\GitHub\razor\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\louis\Documents\GitHub\razor\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\louis\Documents\GitHub\razor\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\louis\Documents\GitHub\razor\bin\Debug\net10.0\Npgsql.dll
+C:\Users\louis\Documents\GitHub\razor\bin\Debug\net10.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\razor.csproj.AssemblyReference.cache
+C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\razor.csproj.Up2Date
