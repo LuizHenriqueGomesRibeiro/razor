@@ -204,11 +204,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\louis\\Documents\\GitHub\\razor\\razor.csproj",
+      "projectUniqueName": "C:\\Users\\louis\\documents\\github\\razor\\razor.csproj",
       "projectName": "razor",
-      "projectPath": "C:\\Users\\louis\\Documents\\GitHub\\razor\\razor.csproj",
+      "projectPath": "C:\\Users\\louis\\documents\\github\\razor\\razor.csproj",
       "packagesPath": "C:\\Users\\louis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\louis\\Documents\\GitHub\\razor\\obj\\",
+      "outputPath": "C:\\Users\\louis\\documents\\github\\razor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -698,7 +698,7 @@
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Npgsql' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-x9vc-6hfv-hg8c",
+      "message": "O pacote 'Npgsql' 8.0.0 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-x9vc-6hfv-hg8c",
       "libraryId": "Npgsql",
       "targetGraphs": [
         "net10.0"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\louis\\Documents\\GitHub\\razor\\razor.csproj": {}
+    "C:\\Users\\louis\\documents\\github\\razor\\razor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\louis\\Documents\\GitHub\\razor\\razor.csproj": {
+    "C:\\Users\\louis\\documents\\github\\razor\\razor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\louis\\Documents\\GitHub\\razor\\razor.csproj",
+        "projectUniqueName": "C:\\Users\\louis\\documents\\github\\razor\\razor.csproj",
         "projectName": "razor",
-        "projectPath": "C:\\Users\\louis\\Documents\\GitHub\\razor\\razor.csproj",
+        "projectPath": "C:\\Users\\louis\\documents\\github\\razor\\razor.csproj",
         "packagesPath": "C:\\Users\\louis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\louis\\Documents\\GitHub\\razor\\obj\\",
+        "outputPath": "C:\\Users\\louis\\documents\\github\\razor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

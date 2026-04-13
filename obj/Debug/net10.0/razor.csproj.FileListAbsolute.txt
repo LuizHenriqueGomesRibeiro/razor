@@ -18,9 +18,7 @@ C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\razor.RazorAssemblyInfo.
 C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
-C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\scopedcss\bundle\razor.styles.css
-C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\scopedcss\projectbundle\razor.bundle.scp.css
 C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\compressed\ovx6u1se4x-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\compressed\wb240mzad5-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\compressed\i92q3j3umn-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
@@ -83,8 +81,6 @@ C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\compressed\frkjaca8z8-{0
 C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\compressed\lgrgz9dfpj-{0}-muycvpuwrr-muycvpuwrr.gz
 C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\compressed\pg7rc7hmmi-{0}-87fc7y1x7t-87fc7y1x7t.gz
 C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\compressed\6ef1zmg73h-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\compressed\tz4yx3pzow-{0}-b3ise7rbpp-b3ise7rbpp.gz
-C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\compressed\1h4vhllifo-{0}-b3ise7rbpp-b3ise7rbpp.gz
 C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\louis\Documents\GitHub\razor\obj\Debug\net10.0\staticwebassets.development.json
