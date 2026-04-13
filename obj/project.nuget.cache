@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eVRDVicKnL4=",
+  "dgSpecHash": "WSmsyv4ORzg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\louis\\documents\\github\\razor\\razor.csproj",
+  "projectFilePath": "C:\\Users\\louis\\Documents\\GitHub\\razor\\razor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\louis\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
     "C:\\Users\\louis\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0\\microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",
@@ -16,9 +16,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "O pacote 'Npgsql' 8.0.0 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-x9vc-6hfv-hg8c",
-      "projectPath": "C:\\Users\\louis\\documents\\github\\razor\\razor.csproj",
+      "projectPath": "C:\\Users\\louis\\Documents\\GitHub\\razor\\razor.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\louis\\documents\\github\\razor\\razor.csproj",
+      "filePath": "C:\\Users\\louis\\Documents\\GitHub\\razor\\razor.csproj",
       "libraryId": "Npgsql",
       "targetGraphs": [
         "net10.0"

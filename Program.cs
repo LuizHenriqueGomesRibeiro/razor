@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 DbBuilder dbBuilder = new();
@@ -10,10 +12,9 @@ dbBuilder.AddDatabase(builder);
 
 WebApplication app = builder.Build();
 
-if (!app.Environment.IsDevelopment()) {
-    app.UseExceptionHandler("/Error");
-    app.UseHsts();
-}
+using IServiceScope scope = app.Services.CreateScope();
+AppDbContext db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+db.Database.Migrate();
 
 app.UseHttpsRedirection();
 app.UseRouting();
