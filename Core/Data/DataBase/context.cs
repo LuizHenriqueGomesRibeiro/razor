@@ -8,6 +8,4 @@ public class AppDbContext: DbContext {
   public DbSet<User> Users { get; set; }
   public DbSet<Room> Rooms { get; set; }
   public DbSet<Schedule> Schedules { get; set; }
-
-  
 }

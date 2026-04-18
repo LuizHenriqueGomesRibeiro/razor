@@ -1,18 +1,19 @@
-
-
-using Microsoft.EntityFrameworkCore;
-using razor.Core.UseCases.dbUseCase;
+using razor.Core.Repositories.Schedules;
 
 namespace razor.Core.UseCases.schedules {
 
-  public class SchedulesUseCase : DbUseCase
+  public class SchedulesUseCase
   {
-    public SchedulesUseCase(AppDbContext dbContext) : base(dbContext) {}
+    private readonly SchedulesRepository _schedules;
+    public SchedulesUseCase(SchedulesRepository schedules)
+    {
+      _schedules = schedules;
+    }
 
     public async Task<List<Schedule>> GetSchedules()
     {
-      List<Schedule> schedules = await _dbContext.Schedules.ToListAsync();
-      return schedules;
+      List<Schedule> sc = await _schedules.GetSchedules();
+      return sc;
     }
   }
 }

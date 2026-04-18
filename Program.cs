@@ -9,15 +9,10 @@ dbBuilder.AddDatabase(builder);
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
-dbBuilder.AddDatabase(builder);
-
-builder.Services.AddScoped<SchedulesUseCase>();
 
 WebApplication app = builder.Build();
 
 using IServiceScope scope = app.Services.CreateScope();
-AppDbContext db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-db.Database.Migrate();
 
 app.UseHttpsRedirection();
 app.UseRouting();
