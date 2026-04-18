@@ -11,6 +11,7 @@ public class SchedulesController: Controller {
   {
     List<Schedule> schedules = await _schedulesUseCase.GetSchedules();
     Console.WriteLine($"schedules: {schedules.Count}");
-    return View("~/Views/Schedules/Index.cshtml");
+    SchedulesPageModel model = new() { Schedules = schedules };
+    return View(model);
   }
 }

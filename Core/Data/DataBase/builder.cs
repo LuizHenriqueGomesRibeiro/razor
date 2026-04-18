@@ -1,6 +1,6 @@
 using razor.Core.Repositories.Schedules;
 using Microsoft.EntityFrameworkCore;
-using razor.Core.Data.DataBase;
+using razor.Core.UseCases.schedules;
 
 public class DbBuilder
 {
@@ -8,9 +8,9 @@ public class DbBuilder
     {
         builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
         
-        builder.Services.AddScoped<DbInstance>();
+        builder.Services.AddScoped<AppDbContext>();
         builder.Services.AddScoped<SchedulesRepository>();
-
+        builder.Services.AddScoped<SchedulesUseCase>();
         return builder.Services;
     }
 }

@@ -1,8 +1,15 @@
+@using System.ComponentModel
+@using System.Security.Cryptography
+@model SchedulesPageModel
 @{
     ViewData["Title"] = "Home page";
+    
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <div>Schedules</div>
+    @foreach(var sc in Model.Schedules) {
+        <div>@sc.Id</div>
+    }
 </div>
