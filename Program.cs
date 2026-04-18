@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using razor.Core.UseCases.schedules;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,8 @@ dbBuilder.AddDatabase(builder);
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 dbBuilder.AddDatabase(builder);
+
+builder.Services.AddScoped<SchedulesUseCase>();
 
 WebApplication app = builder.Build();
 
