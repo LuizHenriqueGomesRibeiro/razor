@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("razor.Tests.E2E")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4535985379169fef1e51022a7780444d09be4e48")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c57487d8d2e8d5633c6a243f91cf8487bdf4a570")]
 [assembly: System.Reflection.AssemblyProductAttribute("razor.Tests.E2E")]
 [assembly: System.Reflection.AssemblyTitleAttribute("razor.Tests.E2E")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
