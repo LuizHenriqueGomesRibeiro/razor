@@ -19,4 +19,4 @@
 ## or put your custom commands -------------------
 #echo 'Husky.Net is awesome!'
 
-dotnet test razor.Tests.E2E/razor.Tests.E2E.csproj
+dotnet husky run --name run-e2e
