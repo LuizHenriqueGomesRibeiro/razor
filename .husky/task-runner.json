@@ -5,11 +5,7 @@
    ],
    "tasks": [
       {
-         "name": "run-e2e",
-         "group": "test",
-         "command": "dotnet",
          "states": ["pre-commit"]
       }
    ]
 }
-
