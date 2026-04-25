@@ -1,6 +1,4 @@
-﻿using Microsoft.Playwright;
-using Microsoft.Playwright.Xunit;
-using System.Text.RegularExpressions;
+﻿using Microsoft.Playwright.Xunit;
 
 namespace razor.Tests.E2E;
 
@@ -11,6 +9,6 @@ public class UnitTest1 : PageTest
     {
         await Page.GotoAsync("http://localhost:5107/schedules");
 
-        await Expect(Page).ToHaveTitleAsync(new Regex("Home"));
+        await Expect(Page.GetByText("Welcome")).ToBeVisibleAsync();
     }
 }

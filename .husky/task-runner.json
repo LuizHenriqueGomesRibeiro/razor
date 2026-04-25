@@ -9,7 +9,7 @@
          "group": "test",
          "command": "dotnet",
          "args": ["test", "razor.Tests.E2E/razor.Tests.E2E.csproj"],
-         "states": ["pre-push"]
+         "states": ["pre-commit"]
       }
    ]
 }
