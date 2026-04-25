@@ -10,6 +10,7 @@ public class SchedulesController: Controller {
   public async Task<IActionResult> Index()
   {
     List<Schedule> schedules = await _schedulesUseCase.GetSchedules();
+    Console.WriteLine($"{schedules.Count}");
     SchedulesPageModel model = new() { Schedules = schedules };
     return View(model);
   }

@@ -1,21 +1,15 @@
 {
    "$schema": "https://alirezanet.github.io/Husky.Net/schema.json",
+   "variables": [
+      { "name": "solutionPath", "value": "razor.sln" }
+   ],
    "tasks": [
       {
-         "name": "welcome-message-example",
-         "command": "bash",
-         "args": [ "-c", "echo Husky.Net is awesome!" ],
-         "windows": {
-            "command": "cmd",
-            "args": ["/c", "echo Husky.Net is awesome!" ]
-         }
-      },
-      {
-         "name": "verificar-formatacao",
-         "group": "pre-commit",
+         "name": "run-e2e",
+         "group": "test",
          "command": "dotnet",
-         "args": ["format", "--verify-no-changes"],
-         "include": ["**/*.cs", "**/*.cshtml"]
+         "args": ["test", "razor.Tests.E2E/razor.Tests.E2E.csproj"],
+         "states": ["pre-push"]
       }
    ]
 }
