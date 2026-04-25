@@ -9,6 +9,6 @@ public class UnitTest1 : PageTest
     {
         await Page.GotoAsync("http://localhost:5107/schedules");
 
-        await Expect(Page.GetByText("Welcome2")).ToBeVisibleAsync();
+        await Expect(Page.GetByText("Welcome")).ToBeVisibleAsync();
     }
 }

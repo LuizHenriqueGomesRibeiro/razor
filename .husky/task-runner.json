@@ -8,7 +8,6 @@
          "name": "run-e2e",
          "group": "test",
          "command": "dotnet",
-         "args": ["test", "razor.Tests.E2E/razor.Tests.E2E.csproj"],
          "states": ["pre-commit"]
       }
    ]

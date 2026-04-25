@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l+RgGtbYSIc=",
+  "dgSpecHash": "dyYQCEid15c=",
   "success": true,
-  "projectFilePath": "C:\\Users\\louis\\documents\\github\\razor\\razor.Tests.E2E\\razor.Tests.E2E.csproj",
+  "projectFilePath": "C:\\Users\\louis\\Documents\\GitHub\\razor\\razor.Tests.E2E\\razor.Tests.E2E.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\louis\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
     "C:\\Users\\louis\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
